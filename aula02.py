@@ -22,5 +22,3 @@ elif operador == "*":
 elif operador == "/":
     resultado = valor1 / valor2
     print("O resultado da operação é: ", resultado)
-
-
