@@ -1,10 +1,11 @@
+x = 3
 
-# Online Python - IDE, Editor, Compiler, Interpreter
+print("o primeiro valor é: ", x)
 
-def sum(a, b):
-    return (a + b)
+y = int(input("o segundo valor é: "))
 
-a = int(input('Enter 1st number: '))
-b = int(input('Enter 2nd number: '))
+print("a operação será: ", x, "+", y)
+print("logo... \nO resultado será:")
 
-print(f'Sum of {a} and {b} is {sum(a, b)}')
+z = int(x + y)
+print(z)
